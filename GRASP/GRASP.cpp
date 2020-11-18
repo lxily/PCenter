@@ -1,6 +1,5 @@
 ﻿#include "GRASP.h"
-
-Rander rander;
+#include "common.h"
 
 PCenterSolver::PCenterSolver(vector<vector<int>> g, int p) {
 	vNum = (int)g.size();
